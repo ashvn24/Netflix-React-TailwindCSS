@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="bg-neutral-950 text-white ">
+    <div >
       <nav className="fixed top-0 left-0 right-0 bg-transparent p-2 z-10">
         <div className="container mx-auto flex items-center justify-between">
           <div className="text-white text-2xl font-bold">
@@ -44,101 +44,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-      <div className="relative">
-        <img
-          src="https://images8.alphacoders.com/111/1113035.jpg"
-          alt="Background"
-          className="w-full  object-cover"
-          style={{ height: "550px" }}
-        />
-        <div className="absolute inset-0  flex flex-col  items-start max-w-md mt-52  text-white ml-10">
-          {/* Your Text or Content Goes Here */}
-          <h1 className="text-4xl font-bold ml-0">Your Text Goes Here</h1>
-          <p className="mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            quos consequuntur doloremque tenetur suscipit voluptatem
-            consequatur, voluptatum nostrum. Explicabo aut tempora pariatur iste
-            repudiandae perspiciatis accusamus tempore quaerat quis illum!
-          </p>
-        </div>
-        <div className="absolute  mt-60 inset-0 bg-gradient-to-t from-black "></div>
-      </div>
 
-      <div className="container max-w-full my-2 overflow-x-auto no-scrollbar whitespace-no-wrap">
-        <h3 className="mx-4 font-medium">Genere</h3>
-        <div className="flex">
-          <div className="flex-shrink-0 w-48 m-4">
-            <img
-              src="https://m.media-amazon.com/images/M/MV5BMTA3NzkzMDUxODBeQTJeQWpwZ15BbWU4MDM0ODc5ODcz._V1_.jpg"
-              alt="{title}"
-              className="w-full h-64 object-cover mb-4 rounded-lg"
-            />
-            <h2 className="text-lg font-semibold text-center">
-              "Description for Movie 1"
-            </h2>
-          </div>
-          <div className="flex-shrink-0 w-48 m-4">
-            <img
-              src="https://m.media-amazon.com/images/M/MV5BMTA3NzkzMDUxODBeQTJeQWpwZ15BbWU4MDM0ODc5ODcz._V1_.jpg"
-              alt="{title}"
-              className="w-full h-64 object-cover mb-4 rounded-lg"
-            />
-            <h2 className="text-lg font-semibold text-center">
-              "Description for Movie 1"
-            </h2>
-          </div>
-          <div className="flex-shrink-0 w-48 m-4">
-            <img
-              src="https://m.media-amazon.com/images/M/MV5BMTA3NzkzMDUxODBeQTJeQWpwZ15BbWU4MDM0ODc5ODcz._V1_.jpg"
-              alt="{title}"
-              className="w-full h-64 object-cover mb-4 rounded-lg"
-            />
-            <h2 className="text-lg font-semibold text-center">
-              "Description for Movie 1"
-            </h2>
-          </div>
-          <div className="flex-shrink-0 w-48 m-4">
-            <img
-              src="https://m.media-amazon.com/images/M/MV5BMTA3NzkzMDUxODBeQTJeQWpwZ15BbWU4MDM0ODc5ODcz._V1_.jpg"
-              alt="{title}"
-              className="w-full h-64 object-cover mb-4 rounded-lg"
-            />
-            <h2 className="text-lg font-semibold text-center">
-              "Description for Movie 1"
-            </h2>
-          </div>
-          <div className="flex-shrink-0 w-48 m-4">
-            <img
-              src="https://m.media-amazon.com/images/M/MV5BMTA3NzkzMDUxODBeQTJeQWpwZ15BbWU4MDM0ODc5ODcz._V1_.jpg"
-              alt="{title}"
-              className="w-full h-64 object-cover mb-4 rounded-lg"
-            />
-            <h2 className="text-lg font-semibold text-center">
-              "Description for Movie 1"
-            </h2>
-          </div>
-          <div className="flex-shrink-0 w-48 m-4">
-            <img
-              src="https://m.media-amazon.com/images/M/MV5BMTA3NzkzMDUxODBeQTJeQWpwZ15BbWU4MDM0ODc5ODcz._V1_.jpg"
-              alt="{title}"
-              className="w-full h-64 object-cover mb-4 rounded-lg"
-            />
-            <h2 className="text-lg font-semibold text-center">
-              "Description for Movie 1"
-            </h2>
-          </div>
-          <div className="flex-shrink-0 w-48 m-4">
-            <img
-              src="https://m.media-amazon.com/images/M/MV5BMTA3NzkzMDUxODBeQTJeQWpwZ15BbWU4MDM0ODc5ODcz._V1_.jpg"
-              alt="{title}"
-              className="w-full h-64 object-cover mb-4 rounded-lg"
-            />
-            <h2 className="text-lg font-semibold text-center">
-              "Description for Movie 1"
-            </h2>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
