@@ -14,5 +14,8 @@
   .transform:hover{
     transform: scale(1.5);
 }
-}
 
+}
+.btn:hover{
+    background-color: aliceblue;
+}
